@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  gap: 12px;
+  padding: 16px 12px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  flex-grow: 1;
+}
+
+.value {
+  font-weight: 800;
+  color: var(--darkGray);
+}
+
+.highlightValue {
+  color: var(--black);
+  font-weight: 800;
+}
+
+@mixin generateCardClass($className, $bgColor, $textColor) {
+  .#{$className} {
+    background-color: $bgColor;
+
+    & > :nth-child(2) {
+      color: $textColor;
+    }
+  }
+}
+
+@include generateCardClass(reaction, var(--lightRed), var(--red));
+@include generateCardClass(memory, var(--lightOrange), var(--orange));
+@include generateCardClass(verbal, var(--lightGreen), var(--green));
+@include generateCardClass(visual, var(--lightBlue), var(--blue));

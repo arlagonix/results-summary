@@ -1,0 +1,22 @@
+@use "styles/fonts";
+@use "styles/colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Hanken Grotesk", Arial, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--white);
+}

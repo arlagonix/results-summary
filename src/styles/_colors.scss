@@ -1,0 +1,31 @@
+:root {
+  --white: #ffffff;
+  --gray: #ddd;
+  --darkGray: #aaa;
+  --black: #000000;
+
+  --red: hsl(0 100% 67%);
+  --lightRed: hsl(0 100% 67% / 0.07);
+
+  --orange: hsl(39 100% 56%);
+  --lightOrange: hsl(39 100% 56% / 0.07);
+
+  --green: hsl(166 100% 37%);
+  --lightGreen: hsl(166 100% 37% / 0.07);
+
+  --blue: hsl(234 85% 45%);
+  --lightBlue: hsl(234 85% 45% / 0.07);
+
+  // Gradient 1
+  --lightSlateBlue: hsl(252, 100%, 67%);
+  --lightRoyalBlue: hsl(241, 81%, 54%);
+
+  // Gradient 2
+  --violetBlue: hsla(256, 72%, 46%, 1);
+  --persianBlue: hsla(241, 72%, 46%, 0);
+}
+
+// - Light red: hsl(0, 100%, 67%)
+// - Orangey yellow: hsl(39, 100%, 56%)
+// - Green teal: hsl(166, 100%, 37%)
+// - Cobalt blue: hsl(234, 85%, 45%)
