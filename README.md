@@ -5,8 +5,11 @@
   Bootstrapped with <code>Vite</code>
 </p>
 
+[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge&style=flat-square)](https://actions-badge.atrox.dev/arlagonix/results-summary/goto)
+
+
 <p align="center">
-  <a href="../../actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/arlagonix/results-summary/main.yaml"></a>
+  <a href="../../actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/arlagonix/results-summary/main.yml"></a>
   <a href="../../commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arlagonix/results-summary"></a>
   <a href="./LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/arlagonix/results-summary"></a>
   <img src="https://badgen.net/github/dependabot/arlagonix/results-summary?logo=dependabot&logoColor=white" />
@@ -94,48 +97,33 @@ Figma prototype: https://www.figma.com/file/1EBrHNQkGnjVDeCsr56LnH/Results-Summa
 
 ```Markdown
 ├── 📁 .github
+|   ├── 📁 workflows
+|   |   └── 📝 main.yaml      CI/CD instructions for Github Actions
 │   └── 📝 dependabot.yml     Instructions for Dependabot
 |
-├── 📁 .storybook             Settings for Storybook
-|
-├── 📁 components                     React components
-|   └── 📁 Component Name
-|       ├── 📝 index.tsx          Component logic
-|       ├── 📝 index.styled.tsx   Component styles
-|       ├── 📝 index.stories.tsx  Storybook instructions (optional)
-|       └── 📝 index.types.tsx    Component types (optional)
-|
-├── 📁 data                   Data for some sections of the page
-│
-├── 📁 docs                   Additional information, documentation
+├── 📁 docs                   Additional information, documentation 
 │   └── 📁 results            Screenshots of how the application works after being fully developed
 |
-├── 📁 global                 Global styles (styled-components)
-|
-├── 📁 hooks                  Custom React hooks
-|
-├── 📁 pages                      React page components
-|   ├── 📝 _app.page.tsx          Global settings for the main page
-|   ├── 📝 _document.page.tsx     Instructions for making styled-components work properly, for fonts
-|   ├── 📝 index.page.tsx     Main page logic
-|   └── 📝 index.styled.tsx   Page styles
-|
-├── 📁 public                     Static assets: images, icons, favicons
-|
-├── 📁 stories                    Storybook stories
-|
-├── 📁 utils                      Utility functions
+├── 📁 src                    Source files needed for application development
+│   ├── 📁 assets             Static assets: images, icons, favicons
+│   ├── 📁 components         React components
+│   ├── 📁 pages              React page components
+│   ├── 📁 utils              Utility functions
+│   ├── 📝 App.tsx            App React component
+│   ├── 📝 index.css          Tailwind declarations mainly
+│   ├── 📝 index.html         Main html file
+│   └── 📝 index.tsx          Entry point for the module bundler
 |
 ├── 📝 .eslintrc.json         ESLint configuration file
 ├── 📝 .gitignore             Instructions for Git about what files to ignore
-├── 📝 .npmrc                 Instructions for NPM (for Storybook to wrok properly)
 ├── 📝 LICENSE                MIT License. Basically you can do whatever you want with the code
 ├── 📝 README.md              Project description
-├── 📝 next.config.js         NextJS configuration file
 ├── 📝 package-lock.json      Keeps track of the exact version of every package that is installed
 ├── 📝 package.json           Various metadata relevant to the project, scripts, dependencies
-├── 📝 styled.d.ts            Types for styled-components
-└── 📝 tsconfig.json          TypeScript configuration file
+├── 📝 tsconfig.json          TypeScript configuration file
+├── 📝 tsconfig.node.json     TypeScript configuration file for Vite
+├── 📝 vite-end.d.ts          Some Typescript stuff for Vite
+└── 📝 vite.config.js         Vite configuration file
 ```
 
 ## 📦 NPM Packages worth mentioning
