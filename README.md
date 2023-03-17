@@ -139,7 +139,7 @@ Decided to try a simple project.
 
 ## 🔗 Useful resources
 
--
+n/a
 
 ## 👤 Author
 
