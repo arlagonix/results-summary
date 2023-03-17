@@ -5,9 +5,6 @@
   Bootstrapped with <code>Vite</code>
 </p>
 
-[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge&style=flat-square)](https://actions-badge.atrox.dev/arlagonix/results-summary/goto)
-
-
 <p align="center">
   <a href="../../actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/arlagonix/results-summary/main.yml"></a>
   <a href="../../commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arlagonix/results-summary"></a>
