@@ -104,10 +104,9 @@ Figma prototype: https://www.figma.com/file/1EBrHNQkGnjVDeCsr56LnH/Results-Summa
 ├── 📁 src                    Source files needed for application development
 │   ├── 📁 assets             Static assets: images, icons, favicons
 │   ├── 📁 components         React components
-│   ├── 📁 pages              React page components
-│   ├── 📁 utils              Utility functions
 │   ├── 📝 App.tsx            App React component
-│   ├── 📝 index.css          Tailwind declarations mainly
+│   ├── 📝 App.module.scss    App styles
+│   ├── 📝 index.scss         Global styles
 │   ├── 📝 index.html         Main html file
 │   └── 📝 index.tsx          Entry point for the module bundler
 |
