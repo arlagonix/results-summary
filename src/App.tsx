@@ -7,7 +7,7 @@ function App() {
     <>
       <h1 hidden>Results Summary</h1>
       <main className={s.card}>
-        <div className={s.left}>
+        <article className={s.left}>
           <h2 className={s.leftHeader}>Your Result</h2>
           <div className={s.scoreContainer}>
             <p className={s.bigScoreNumber}>76</p>
@@ -17,8 +17,8 @@ function App() {
             <h3 className={s.great}>Great</h3>
             <p className={s.resultsDescription}>You scored higher than 65% of the people who have taken these tests</p>
           </div>
-        </div>
-        <div className={s.right}>
+        </article>
+        <article className={s.right}>
           <h2 className={s.rightHeader}>Summary</h2>
           <div className={s.summaryCardContainer}>
             <SummaryCard type="reaction" value={80} />
@@ -29,7 +29,7 @@ function App() {
           <a className={s.button} draggable={false}>
             Continue
           </a>
-        </div>
+        </article>
       </main>
     </>
   );
